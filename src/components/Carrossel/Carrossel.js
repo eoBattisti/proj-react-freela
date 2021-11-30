@@ -18,7 +18,7 @@ const Carrosel = () => {
 
         
         <div id="carouselWrapper">
-                <Carousel 
+            <Carousel 
             autoPlay={true} 
             interval={3000} 
             infiniteLoop={true}
@@ -118,6 +118,7 @@ const Carrosel = () => {
                         </div>
                     </div>
                 </Style>
+
                 <Style>
                     <div className="card">
                         <div className="face face1">
@@ -135,6 +136,7 @@ const Carrosel = () => {
                         </div>
                     </div>
                 </Style>
+   
                 <Style>
                     <div className="card">
                         <div className="face face1">
@@ -151,6 +153,7 @@ const Carrosel = () => {
                         </div>
                     </div>
                 </Style>
+            
             </Carousel>
         </div>
             <div id="carouselWrapper2">
