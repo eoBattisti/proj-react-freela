@@ -2,6 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 
 import { Box, BoxMedium, BoxMediumReversed } from '../Box/style';
+import Carrosel from "../Carrossel/index";
 
 import rocket from '../../assets/rocket.png';
 import rocket2 from '../../assets/rocket2.jpg';
@@ -25,6 +26,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </Box>
+            <Carrosel />
             <BoxMedium> {/* Para os EMPREENDEDORES */}
                 <img alt="Empreendedores" src={empreendedores} />
                 <div>   
@@ -56,6 +58,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </BoxMedium>
+
             <BoxMedium> {/* Missão */}
                 <img alt="Empreendedores" src={missao} />
                 <div>   
@@ -66,6 +69,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </BoxMedium>
+
             <BoxMedium> {/* Visão */}
                 <img alt="Empreendedores" src={jornada} />
                 <div>   
@@ -76,6 +80,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </BoxMedium>
+            
             <BoxMedium> {/* Visão */}
                 <img alt="Empreendedores" src={rocket2} />
                 <div>   
