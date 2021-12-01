@@ -12,11 +12,11 @@ const Header = () => {
 
   return (
     <Container>
-        <a href="#"><img  alt="Logo da Empresa" src={logo}/></a>
+        <Link href="/react-freela"><img  alt="Logo da Empresa" src={logo}/></Link>
         <nav>
             <ul>
                 <li>
-                  <Link variant="h6" component="button" underline="none">Como Funciona?</Link>
+                  <Link  rel="noreferrer" href="/#Empreendedores"  variant="h6" underline="none">Como Funciona?</Link>
                 </li>
                 <li>
                   <Link variant="h6"  component="button" underline="none">Sobre a Freela</Link>

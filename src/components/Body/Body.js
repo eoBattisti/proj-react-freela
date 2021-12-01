@@ -5,6 +5,8 @@ import { Box, BoxMedium, BoxMediumReversed } from '../Box/style';
 import Carrosel from "../Carrossel/index";
 import Contratacao from "../Contratacoes/index";
 import Contato from '../Contato/index';
+import BeneficiosFree from "../BeneficiosFree/index";
+import BeneficiosEmp from "../BeneficiosEmp/index";
 
 
 import rocket from '../../assets/rocket.png';
@@ -29,10 +31,12 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </Box>
+            
             <Carrosel />
-            <BoxMedium> {/* Para os EMPREENDEDORES */}
+            
+            <BoxMedium id="Empreendedores"> {/* Para os EMPREENDEDORES */}
                 <img alt="Empreendedores" src={empreendedores} />
-                <div>   
+                <div >   
                     <Typography variant="h3">Para você empreendedor</Typography>
                     <Typography mt={20} variant="subtitle1" > 
                         Utilizando nosso aplicativo você conseguirá procurar e encontrar os melhores profissionais o
@@ -40,7 +44,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </BoxMedium>
-
+            <BeneficiosEmp />
             <BoxMediumReversed> {/* Para os FREELANCERS */}
                 <img alt="Empreendedores" src={freelancer} />
                 <div>   
@@ -50,6 +54,7 @@ const  Body = () => {
                     </Typography>
                 </div> 
             </BoxMediumReversed>
+            <BeneficiosFree/>
 
             <BoxMedium> {/* Sobre a Freela */}
                 <img alt="Empreendedores" src={polvo} />
