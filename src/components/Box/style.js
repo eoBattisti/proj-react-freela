@@ -116,6 +116,7 @@ export const BoxMedium = styled.div `
     @media screen and (max-width:426px){
         width: 80%;
         justify-content: center;
+        flex-direction: column;
         img {
             display: none;
         }
@@ -127,6 +128,7 @@ export const BoxMedium = styled.div `
     @media screen and (max-width:376px){
         width: 80%;
         justify-content: center;
+        flex-direction: column;
         img {
             display: none;
         }
@@ -138,6 +140,7 @@ export const BoxMedium = styled.div `
 
     @media screen and (max-width:320px){
         width: 80%;
+        flex-direction: column;
         justify-content: center;
         img {
             display: none;

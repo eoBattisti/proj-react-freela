@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { Box, BoxMedium, BoxMediumReversed } from '../Box/style';
 import Carrosel from "../Carrossel/index";
 import Contratacao from "../Contratacoes/index";
-
+import Contato from '../Contato/index';
 
 
 import rocket from '../../assets/rocket.png';
@@ -97,6 +97,7 @@ const  Body = () => {
             </BoxMedium>
 
             <Contratacao/>
+            <Contato/>
         </>
     );
 };
